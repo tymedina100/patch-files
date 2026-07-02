@@ -14,7 +14,7 @@ A practical AI governance readiness kit for SaaS and enterprise teams preparing 
 
 ## Listing description
 
-AI governance is no longer an abstract policy topic. Enterprise buyers, auditors, and internal leadership are starting to ask the same uncomfortable questions: Where are you using AI? What data does it touch? Which vendors and models are involved? Who reviews high-impact use cases? What evidence can you show?
+AI governance is no longer an abstract policy topic. Enterprise buyers, auditors, and internal leadership are starting to ask the same uncomfortable questions: Where are you using AI? What data does it touch? Which vendors and models are involved? Who reviews high-impact or consequential use cases? What evidence can you show?
 
 This downloadable report gives operators a practical starting point.
 
@@ -27,7 +27,7 @@ What’s included:
 - AI inventory spreadsheet structure and discovery process
 - Risk-tiering framework for internal tools, product AI, and vendors
 - EU AI Act phased-readiness map and practical control checklist
-- U.S. AI governance watchlist for employment, consumer, privacy, and high-impact decision workflows
+- U.S. AI governance watchlist for employment, consumer, privacy, automated decision-making, and consequential/high-impact workflows
 - 40-question vendor/model diligence bank
 - Customer-facing evidence pack template
 - Draft-response examples for buyer AI questionnaires
