@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>2026 AI Governance Buyer Readiness Report</title>
+  <meta name="description" content="A practical paid research report for SaaS, HR tech, fintech, health tech, and enterprise teams preparing for EU AI Act and U.S. state AI compliance readiness." />
+  <style>
+    :root {
+      --ink: #111827;
+      --muted: #4b5563;
+      --line: #d1d5db;
+      --soft: #f3f4f6;
+      --accent: #2563eb;
+      --accent-dark: #1d4ed8;
+      --green: #047857;
+      --bg: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.55;
+    }
+    a { color: inherit; }
+    .wrap { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
+    .nav {
+      border-bottom: 1px solid var(--line);
+      background: rgba(255,255,255,.94);
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      backdrop-filter: blur(12px);
+    }
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 16px 0;
+    }
+    .brand { font-weight: 800; letter-spacing: -.02em; }
+    .nav-links { display: flex; align-items: center; gap: 18px; font-size: 14px; color: var(--muted); }
+    .nav-links a { text-decoration: none; }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      border: 1px solid var(--accent);
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      font-weight: 750;
+      border-radius: 10px;
+      padding: 13px 18px;
+      box-shadow: 0 10px 24px rgba(37,99,235,.22);
+    }
+    .button:hover { background: var(--accent-dark); border-color: var(--accent-dark); }
+    .button.secondary {
+      background: white;
+      color: var(--accent);
+      box-shadow: none;
+    }
+    .hero { padding: 78px 0 54px; background: linear-gradient(180deg, #eff6ff 0%, #ffffff 82%); }
+    .hero-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 44px; align-items: center; }
+    .eyebrow {
+      display: inline-flex;
+      border: 1px solid #bfdbfe;
+      background: #dbeafe;
+      color: #1e40af;
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: 13px;
+      font-weight: 750;
+      margin-bottom: 18px;
+    }
+    h1 {
+      font-size: clamp(40px, 6vw, 66px);
+      line-height: .98;
+      letter-spacing: -.055em;
+      margin: 0 0 20px;
+    }
+    .lead { font-size: 20px; color: var(--muted); max-width: 720px; margin: 0 0 28px; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+    .note { color: var(--muted); font-size: 14px; }
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: white;
+      box-shadow: 0 24px 60px rgba(17,24,39,.12);
+      overflow: hidden;
+    }
+    .report-card-head { padding: 24px; background: #111827; color: white; }
+    .report-card-head p { margin: 8px 0 0; color: #d1d5db; }
+    .report-card-body { padding: 24px; }
+    .price { font-size: 48px; line-height: 1; font-weight: 850; letter-spacing: -.04em; margin: 0; }
+    .price small { font-size: 16px; color: var(--muted); font-weight: 600; }
+    .bullets { padding: 0; margin: 22px 0; list-style: none; }
+    .bullets li { display: flex; gap: 10px; margin: 11px 0; color: var(--muted); }
+    .check { color: var(--green); font-weight: 900; }
+    section { padding: 58px 0; }
+    .section-title { font-size: clamp(30px, 4vw, 42px); line-height: 1.08; letter-spacing: -.04em; margin: 0 0 14px; }
+    .section-copy { color: var(--muted); max-width: 760px; margin: 0 0 28px; font-size: 18px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .mini-card { border: 1px solid var(--line); border-radius: 18px; padding: 22px; background: white; }
+    .mini-card h3 { margin: 0 0 8px; font-size: 19px; letter-spacing: -.02em; }
+    .mini-card p { margin: 0; color: var(--muted); }
+    .split { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+    .panel { border: 1px solid var(--line); border-radius: 20px; padding: 28px; background: var(--soft); }
+    .panel h3 { margin-top: 0; }
+    .toc { margin: 0; padding-left: 20px; color: var(--muted); }
+    .toc li { margin: 9px 0; }
+    .pricing { background: #f9fafb; }
+    .pricing-box { display: grid; grid-template-columns: 1fr .8fr; gap: 28px; align-items: stretch; }
+    .quote { font-size: 24px; line-height: 1.35; letter-spacing: -.03em; margin: 0; }
+    .fine { font-size: 13px; color: var(--muted); margin-top: 16px; }
+    footer { border-top: 1px solid var(--line); padding: 28px 0; color: var(--muted); font-size: 14px; }
+
+    @media (max-width: 860px) {
+      .hero-grid, .split, .pricing-box, .grid-3 { grid-template-columns: 1fr; }
+      .nav-links a:not(.button) { display: none; }
+      .hero { padding-top: 50px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <div class="brand">AI Governance Readiness</div>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#inside">What is inside</a>
+        <a href="#buyers">Who it is for</a>
+        <a href="#pricing">Pricing</a>
+        <a class="button" href="https://gumroad.com/l/ai-governance-readiness-report?wanted=true" data-checkout>Buy report</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">Flagship paid research report · 2026 edition</div>
+          <h1>AI compliance readiness without the analyst-firm tax.</h1>
+          <p class="lead">A practical buyer-readiness report for SaaS, HR tech, fintech, health tech, and enterprise AI teams preparing for the EU AI Act, U.S. state AI rules, vendor diligence, and internal governance reviews.</p>
+          <div class="hero-actions">
+            <a class="button" href="https://gumroad.com/l/ai-governance-readiness-report?wanted=true" data-checkout>Buy the report — $149</a>
+            <a class="button secondary" href="#inside">See contents</a>
+            <span class="note">PDF + checklists. Built for operator use, not bookshelf decoration.</span>
+          </div>
+        </div>
+
+        <aside class="card" aria-label="Product summary">
+          <div class="report-card-head">
+            <strong>2026 AI Governance Buyer Readiness Report</strong>
+            <p>EU AI Act · U.S. state AI laws · vendor risk questions · implementation checklist</p>
+          </div>
+          <div class="report-card-body">
+            <p class="price">$149 <small>one-time purchase</small></p>
+            <ul class="bullets">
+              <li><span class="check">✓</span><span>Regulatory readiness map for mid-market tech teams</span></li>
+              <li><span class="check">✓</span><span>Vendor and model-risk questionnaire templates</span></li>
+              <li><span class="check">✓</span><span>90-day implementation checklist for legal, security, product, and GTM</span></li>
+              <li><span class="check">✓</span><span>Executive summary for board and leadership updates</span></li>
+            </ul>
+            <a class="button" style="width:100%" href="https://gumroad.com/l/ai-governance-readiness-report?wanted=true" data-checkout>Checkout securely</a>
+            <p class="fine">Checkout link: Gumroad product URL. Replace only if the payment processor changes.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="buyers">
+      <div class="wrap">
+        <h2 class="section-title">Built for teams that need decisions, not theory.</h2>
+        <p class="section-copy">Use this report when customers, auditors, investors, or internal leadership start asking how your company governs AI systems and AI-enabled vendors.</p>
+        <div class="grid-3">
+          <div class="mini-card">
+            <h3>SaaS and AI product teams</h3>
+            <p>Prioritize the controls, disclosures, and product-process changes that matter before sales deals stall.</p>
+          </div>
+          <div class="mini-card">
+            <h3>Compliance and legal leads</h3>
+            <p>Convert scattered regulatory updates into a practical readiness plan and cross-functional owner map.</p>
+          </div>
+          <div class="mini-card">
+            <h3>Revenue and vendor-risk teams</h3>
+            <p>Answer buyer questionnaires faster and pressure-test your own AI suppliers before procurement does.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="inside" style="background:#f9fafb">
+      <div class="wrap split">
+        <div>
+          <h2 class="section-title">What is inside</h2>
+          <p class="section-copy">A concise report package designed to help a mid-market team move from "we should look into this" to a defensible readiness plan.</p>
+          <a class="button" href="https://gumroad.com/l/ai-governance-readiness-report?wanted=true" data-checkout>Get instant access</a>
+        </div>
+        <div class="panel">
+          <h3>Report table of contents</h3>
+          <ol class="toc">
+            <li>Executive briefing: why AI governance readiness matters in 2026</li>
+            <li>EU AI Act readiness timeline and obligation map</li>
+            <li>U.S. state AI law watchlist for enterprise software teams</li>
+            <li>Risk tiering framework for internal AI systems and vendors</li>
+            <li>Vendor diligence questions buyers are likely to ask</li>
+            <li>90-day readiness checklist by function</li>
+            <li>Board-level KPI and evidence pack template</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2 class="section-title">Positioning</h2>
+        <p class="section-copy">This is not a $20k consulting engagement. It is not a 90-page analyst PDF full of charts nobody implements. It is a paid research report for operators who need a credible starting point this quarter.</p>
+        <div class="grid-3">
+          <div class="mini-card">
+            <h3>Practical</h3>
+            <p>Clear checklists, templates, and buyer-facing questions your team can use immediately.</p>
+          </div>
+          <div class="mini-card">
+            <h3>Affordable</h3>
+            <p>Priced for managers and founders who need useful research without procurement theater.</p>
+          </div>
+          <div class="mini-card">
+            <h3>Buyer-ready</h3>
+            <p>Focused on the questions enterprise buyers, auditors, and leadership teams are already asking.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <div class="wrap pricing-box">
+        <div class="panel" style="background:white">
+          <h2 class="section-title">Launch price: $149</h2>
+          <p class="section-copy">One license for one company team. Includes the flagship PDF report, implementation checklist, vendor-risk question bank, and future correction updates for this edition.</p>
+          <a class="button" href="https://gumroad.com/l/ai-governance-readiness-report?wanted=true" data-checkout>Buy now — $149</a>
+          <p class="fine">Need a team invoice or more than 10 seats? Email sales@example.com and use subject line: AI Governance Report Team License.</p>
+        </div>
+        <div class="panel">
+          <p class="quote">“If your biggest AI governance plan is a Slack thread and a spreadsheet, this report is the upgrade path.”</p>
+          <ul class="bullets">
+            <li><span class="check">✓</span><span>Instant checkout</span></li>
+            <li><span class="check">✓</span><span>Downloadable PDF package</span></li>
+            <li><span class="check">✓</span><span>Useful for legal, compliance, product, security, and sales</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© 2026 AI Governance Readiness. Research product storefront. Legal note: this report is informational research, not legal advice.</div>
+  </footer>
+
+  <script>
+    // Single source of truth for checkout. Keep every CTA wired to this URL.
+    const CHECKOUT_URL = "https://gumroad.com/l/ai-governance-readiness-report?wanted=true";
+    document.querySelectorAll("[data-checkout]").forEach((link) => {
+      link.href = CHECKOUT_URL;
+      link.rel = "noopener";
+    });
+  </script>
+</body>
+</html>
