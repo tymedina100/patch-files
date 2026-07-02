@@ -6,11 +6,11 @@
 
 ## Price
 
-$19 launch price
+$149 launch price
 
 ## One-line tagline
 
-A practical AI governance readiness kit for SaaS and enterprise teams preparing for buyer diligence, vendor review, and 2026 compliance pressure.
+A practical AI governance readiness report and template set for SaaS and enterprise teams preparing for buyer diligence, vendor review, and 2026 compliance pressure.
 
 ## Listing description
 
@@ -18,7 +18,7 @@ AI governance is no longer an abstract policy topic. Enterprise buyers, auditors
 
 This downloadable report gives operators a practical starting point.
 
-Inside, you’ll get a practical AI governance readiness report and template set for SaaS, HR tech, fintech, health tech, and enterprise AI teams. It includes a 2026 readiness briefing, EU AI Act timeline map, U.S. state/local watchlist, AI inventory template, risk-tiering framework, vendor diligence question bank, customer evidence pack template, 90-day implementation checklist, board-level KPI template, and copy/paste scripts for internal teams, vendors, and customers.
+Inside, you’ll get a practical AI governance readiness report and template set for SaaS, HR tech, fintech, health tech, and enterprise AI teams. It includes a 2026 readiness briefing, EU AI Act timeline map, U.S. state/local watchlist, AI inventory template, risk-tiering framework, vendor diligence question bank, customer evidence pack template, 90-day implementation checklist, board-level KPI template, readiness scorecard, and copy/paste scripts for internal teams, vendors, and customers.
 
 Built for legal, compliance, product, security, procurement, revenue, and founder-led teams that need to turn scattered AI use into a documented operating process.
 
