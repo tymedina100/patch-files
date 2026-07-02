@@ -130,7 +130,7 @@ The United States remains fragmented across federal agency enforcement, state/lo
 | Area | Examples to monitor | Why it matters | Readiness action |
 |---|---|---|---|
 | Employment decision tools | NYC Local Law 144; state employment and anti-discrimination rules | Hiring, screening, ranking, and selection tools may require audit, notice, or bias review. | Inventory employment AI; collect audit and notice evidence. |
-| High-risk/consequential decisions | Colorado AI Act implementation and related guidance | Developers/deployers of high-risk AI systems may face risk-management, documentation, and notice expectations. | Flag credit, education, employment, housing, insurance, legal, health, or essential-service workflows. |
+| High-risk/consequential decisions | Colorado SB 26-189 automated decision-making technology provisions, effective January 1, 2027; other state automated decision-making rules | Automated decision-making technology that materially influences consequential decisions may trigger obligations around developer documentation, consumer notice, adverse-outcome explanations, correction rights, and meaningful human review. | Document covered ADMT use; map consequential decision workflows; collect developer/vendor documentation; prepare notices, adverse-outcome explanations, correction-request handling, and meaningful human-review workflows where applicable. |
 | Consumer protection | FTC guidance/enforcement on AI claims, deception, unfairness | Unsupported AI claims and hidden limitations create risk. | Review marketing, sales decks, docs, and disclosures. |
 | Privacy/data protection | State privacy laws; sensitive data and profiling provisions | AI often processes personal, sensitive, biometric, employee, or behavioral data. | Map data inputs/outputs, retention, rights, and opt-outs. |
 | Sector rules | Finance, health, insurance, education, public sector procurement | Regulated sectors may impose validation, fairness, explainability, audit, and model-risk requirements. | Assign sector counsel/compliance owners. |
@@ -369,7 +369,7 @@ Use R = Responsible, A = Accountable, C = Consulted, I = Informed.
 ## Vendor decision matrix
 
 | Area | Green | Yellow | Red | Notes |
-|---|---|---|---|---|
+|---|---|---|---|
 | Data use | No training on customer data; clear retention | Limited/unclear retention; opt-out needed | Training on customer data by default |  |
 | Security | Strong assurance and controls | Partial evidence | No meaningful security evidence |  |
 | Transparency | Clear model/vendor docs | Some gaps | Refuses basic documentation |  |
