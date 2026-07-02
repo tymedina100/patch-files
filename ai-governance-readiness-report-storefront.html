@@ -14,6 +14,8 @@
       --accent: #2563eb;
       --accent-dark: #1d4ed8;
       --green: #047857;
+      --amber: #92400e;
+      --red: #b91c1c;
       --bg: #ffffff;
     }
 
@@ -118,12 +120,53 @@
     .pricing-box { display: grid; grid-template-columns: 1fr .8fr; gap: 28px; align-items: stretch; }
     .quote { font-size: 24px; line-height: 1.35; letter-spacing: -.03em; margin: 0; }
     .fine { font-size: 13px; color: var(--muted); margin-top: 16px; }
+
+    .report { background: #ffffff; border-top: 1px solid var(--line); }
+    .report-shell { max-width: 920px; }
+    .report-kicker { color: var(--accent); font-weight: 800; text-transform: uppercase; letter-spacing: .08em; font-size: 12px; margin: 0 0 8px; }
+    .report h2 { font-size: clamp(34px, 5vw, 52px); line-height: 1.04; letter-spacing: -.05em; margin: 0 0 10px; }
+    .report h3 { font-size: 26px; line-height: 1.18; letter-spacing: -.03em; margin: 38px 0 12px; }
+    .report h4 { font-size: 19px; margin: 24px 0 8px; }
+    .report p { color: #374151; margin: 0 0 14px; }
+    .report ul, .report ol { color: #374151; padding-left: 22px; }
+    .report li { margin: 8px 0; }
+    .report-meta {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin: 26px 0 34px;
+    }
+    .meta-card { border: 1px solid var(--line); border-radius: 14px; padding: 14px; background: #f9fafb; }
+    .meta-card strong { display: block; font-size: 13px; color: var(--muted); margin-bottom: 4px; }
+    .meta-card span { font-weight: 800; }
+    .callout {
+      border-left: 5px solid var(--accent);
+      background: #eff6ff;
+      padding: 18px 20px;
+      border-radius: 14px;
+      margin: 24px 0;
+    }
+    .finding-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 18px 0 30px; }
+    .finding { border: 1px solid var(--line); border-radius: 16px; padding: 18px; background: #fff; }
+    .finding strong { display: block; margin-bottom: 6px; }
+    .tag { display: inline-flex; border-radius: 999px; padding: 3px 9px; font-size: 12px; font-weight: 800; margin-bottom: 10px; }
+    .tag.high { background: #fee2e2; color: var(--red); }
+    .tag.med { background: #fef3c7; color: var(--amber); }
+    .tag.ok { background: #dcfce7; color: var(--green); }
+    .matrix { width: 100%; border-collapse: collapse; margin: 16px 0 30px; font-size: 14px; }
+    .matrix th, .matrix td { border: 1px solid var(--line); padding: 12px; text-align: left; vertical-align: top; }
+    .matrix th { background: #f3f4f6; }
+    .recommendation { border: 1px solid #bfdbfe; background: #f8fbff; border-radius: 18px; padding: 20px; margin: 16px 0; }
+    .recommendation h4 { margin-top: 0; }
+    .checklist { columns: 2; column-gap: 32px; }
+    .checklist li { break-inside: avoid; margin-bottom: 10px; }
     footer { border-top: 1px solid var(--line); padding: 28px 0; color: var(--muted); font-size: 14px; }
 
     @media (max-width: 860px) {
-      .hero-grid, .split, .pricing-box, .grid-3 { grid-template-columns: 1fr; }
+      .hero-grid, .split, .pricing-box, .grid-3, .finding-grid, .report-meta { grid-template-columns: 1fr; }
       .nav-links a:not(.button) { display: none; }
       .hero { padding-top: 50px; }
+      .checklist { columns: 1; }
     }
   </style>
 </head>
@@ -134,6 +177,7 @@
       <nav class="nav-links" aria-label="Main navigation">
         <a href="#inside">What is inside</a>
         <a href="#buyers">Who it is for</a>
+        <a href="#report">Flagship report</a>
         <a href="#pricing">Pricing</a>
         <a class="button" href="https://gumroad.com/l/ai-governance-readiness-report?wanted=true" data-checkout>Buy report</a>
       </nav>
@@ -149,7 +193,7 @@
           <p class="lead">A practical buyer-readiness report for SaaS, HR tech, fintech, health tech, and enterprise AI teams preparing for the EU AI Act, U.S. state AI rules, vendor diligence, and internal governance reviews.</p>
           <div class="hero-actions">
             <a class="button" href="https://gumroad.com/l/ai-governance-readiness-report?wanted=true" data-checkout>Buy the report — $149</a>
-            <a class="button secondary" href="#inside">See contents</a>
+            <a class="button secondary" href="#report">Read executive summary</a>
             <span class="note">PDF + checklists. Built for operator use, not bookshelf decoration.</span>
           </div>
         </div>
@@ -199,7 +243,7 @@
       <div class="wrap split">
         <div>
           <h2 class="section-title">What is inside</h2>
-          <p class="section-copy">A concise report package designed to help a mid-market team move from "we should look into this" to a defensible readiness plan.</p>
+          <p class="section-copy">A concise report package designed to help a mid-market team move from “we should look into this” to a defensible readiness plan.</p>
           <a class="button" href="https://gumroad.com/l/ai-governance-readiness-report?wanted=true" data-checkout>Get instant access</a>
         </div>
         <div class="panel">
@@ -235,6 +279,305 @@
             <p>Focused on the questions enterprise buyers, auditors, and leadership teams are already asking.</p>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section id="report" class="report">
+      <div class="wrap report-shell">
+        <p class="report-kicker">Flagship report draft</p>
+        <h2>2026 AI Governance Buyer Readiness Report</h2>
+        <p class="section-copy">EU AI Act, U.S. state AI compliance readiness, vendor risk questions, and implementation checklist for mid-market SaaS, HR tech, fintech, health tech, and enterprise AI teams.</p>
+
+        <div class="report-meta">
+          <div class="meta-card"><strong>Edition</strong><span>2026 launch</span></div>
+          <div class="meta-card"><strong>Audience</strong><span>Mid-market operators</span></div>
+          <div class="meta-card"><strong>Primary risk</strong><span>AI governance evidence gap</span></div>
+          <div class="meta-card"><strong>Use case</strong><span>90-day readiness plan</span></div>
+        </div>
+
+        <div class="callout">
+          <strong>Bottom line:</strong> In 2026, AI governance shifts from “policy theater” to sales, audit, and enforcement readiness. Teams do not need a perfect control environment on day one. They do need an inventory, risk-tiering method, accountable owners, vendor evidence, human oversight decisions, and a record showing that AI risks are reviewed before systems reach customers or employees.
+        </div>
+
+        <h3>Executive summary</h3>
+        <p>Mid-market technology companies are entering a decisive AI governance window. The EU AI Act’s broad compliance architecture is moving into general application in 2026, with maximum penalties reported up to €35 million or 7% of worldwide annual turnover for the most serious violations. In parallel, U.S. state activity is accelerating around automated decision systems, employment tools, consumer transparency, privacy, and algorithmic discrimination.</p>
+        <p>For SaaS, HR tech, fintech, health tech, and enterprise AI vendors, the most immediate commercial risk is not only regulator action. It is deal friction. Enterprise buyers are already asking whether vendors can document AI use, prove privacy and security controls, explain model behavior at a business-process level, show oversight for high-impact decisions, and identify subcontractors or embedded AI suppliers. Companies that cannot answer these questions will see longer procurement cycles, narrower enterprise access, and higher internal escalation from legal and security reviewers.</p>
+        <p>The readiness gap is practical. Many teams have AI policies, acceptable-use notes, and scattered vendor lists, but not a single evidence trail that connects systems, vendors, risk tiers, controls, product decisions, and ownership. The winning operating model in 2026 is lightweight but disciplined: centralize the AI inventory, classify use cases by impact, require pre-release reviews for high-risk systems, maintain vendor evidence, and report readiness metrics to leadership monthly.</p>
+        <p>This report recommends a 90-day program built around four outcomes: <strong>know what AI is in use, know which systems create regulated or high-impact risk, know what evidence customers and auditors will ask for, and know who owns each mitigation.</strong></p>
+
+        <h3>Key findings</h3>
+        <div class="finding-grid">
+          <div class="finding">
+            <span class="tag high">High urgency</span>
+            <strong>1. The 2026 deadline is a board-level operating milestone.</strong>
+            <p>The EU AI Act’s general application timeline makes AI governance a live 2026 readiness issue, not a future legal research topic. Leadership teams need a credible status view before customer or regulator pressure forces reactive work.</p>
+          </div>
+          <div class="finding">
+            <span class="tag high">High revenue impact</span>
+            <strong>2. Buyer diligence is becoming the first enforcement layer.</strong>
+            <p>Enterprise customers are turning regulatory uncertainty into procurement questions. Vendor reviews now ask for AI inventories, model controls, training-data posture, human review, incident handling, and subcontractor transparency.</p>
+          </div>
+          <div class="finding">
+            <span class="tag med">Medium-high complexity</span>
+            <strong>3. U.S. risk is fragmented but commercially meaningful.</strong>
+            <p>U.S. state rules are not a single federal framework. Colorado, New York City, California, Illinois, and other jurisdictions create a patchwork that especially affects employment, consumer finance, healthcare, privacy, and automated decision tools.</p>
+          </div>
+          <div class="finding">
+            <span class="tag high">Control gap</span>
+            <strong>4. The weakest link is the AI inventory.</strong>
+            <p>Most companies cannot govern what they cannot locate. Shadow AI, embedded SaaS features, support copilots, analytics tools, and product experiments often sit outside formal vendor-risk and product-release workflows.</p>
+          </div>
+          <div class="finding">
+            <span class="tag med">Operational priority</span>
+            <strong>5. High-risk classification must be business-process based.</strong>
+            <p>Risk does not come only from model type. It comes from what the system does: screening candidates, influencing credit or insurance outcomes, supporting healthcare decisions, ranking users, detecting fraud, or producing customer-facing recommendations.</p>
+          </div>
+          <div class="finding">
+            <span class="tag ok">Fastest win</span>
+            <strong>6. Evidence packs reduce sales and audit drag.</strong>
+            <p>A reusable AI governance evidence pack can answer recurring buyer questions quickly: policy, inventory summary, vendor questionnaire, risk-tiering method, incident process, oversight model, and data protection posture.</p>
+          </div>
+          <div class="finding">
+            <span class="tag med">Governance design</span>
+            <strong>7. Ownership must be cross-functional, not legal-only.</strong>
+            <p>Legal interprets obligations, but product, security, data, procurement, HR, sales, and customer success create and manage the actual risk. A review board without named operational owners will stall.</p>
+          </div>
+          <div class="finding">
+            <span class="tag ok">Recommended posture</span>
+            <strong>8. A 90-day readiness sprint is enough to become defensible.</strong>
+            <p>Companies can materially improve readiness in one quarter by focusing on inventory, tiering, top vendor reviews, evidence templates, and executive reporting instead of attempting a full enterprise GRC overhaul.</p>
+          </div>
+        </div>
+
+        <h3>Regulatory readiness map</h3>
+        <p>The AI governance landscape is moving on two tracks: broad obligations for AI system providers and deployers, and sector-specific or decision-specific rules for employment, finance, health, privacy, and consumer protection. For most mid-market technology companies, the practical question is not “Which single law applies?” but “Which product and business processes need review before we can answer customers and regulators?”</p>
+
+        <table class="matrix" aria-label="AI governance readiness map">
+          <thead>
+            <tr>
+              <th>Area</th>
+              <th>Why it matters in 2026</th>
+              <th>Likely evidence requested</th>
+              <th>Owner</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>EU AI Act readiness</td>
+              <td>General application milestone and penalty exposure raise urgency for companies selling into or operating in the EU.</td>
+              <td>AI inventory, risk classification, technical documentation path, oversight approach, post-market monitoring concept, incident escalation.</td>
+              <td>Legal + Product + Security</td>
+            </tr>
+            <tr>
+              <td>U.S. state automated decision rules</td>
+              <td>Patchwork obligations affect employment, consumer services, privacy, bias, and high-impact decision systems.</td>
+              <td>Impact assessments, notice language, human review process, bias testing approach, appeal or recourse workflow.</td>
+              <td>Legal + Compliance + Business owner</td>
+            </tr>
+            <tr>
+              <td>Enterprise buyer diligence</td>
+              <td>Customers use procurement to transfer AI risk and demand proof before contract signature or renewal.</td>
+              <td>Vendor questionnaire, subprocessors, model/provider list, data-use boundaries, security controls, incident terms.</td>
+              <td>Revenue + Security + Legal</td>
+            </tr>
+            <tr>
+              <td>Internal AI adoption</td>
+              <td>Employees use copilots, summarizers, coding tools, and analytics assistants that may expose sensitive data or create unreliable outputs.</td>
+              <td>Acceptable-use policy, approved tools list, training records, data classification rules, monitoring or exception process.</td>
+              <td>IT + Security + HR</td>
+            </tr>
+            <tr>
+              <td>Embedded third-party AI</td>
+              <td>SaaS vendors increasingly add AI features that enter workflows without procurement re-review.</td>
+              <td>Updated vendor risk review, data-processing terms, opt-out controls, retention policies, model training terms.</td>
+              <td>Procurement + Security + Data privacy</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Recommended risk-tiering framework</h3>
+        <p>Use a four-tier model. The goal is to sort systems quickly, assign controls proportionate to impact, and avoid treating every chatbot or automation as equal risk.</p>
+        <table class="matrix" aria-label="AI risk tiers">
+          <thead>
+            <tr>
+              <th>Tier</th>
+              <th>Definition</th>
+              <th>Examples</th>
+              <th>Minimum controls</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Tier 0: Prohibited / pause</strong></td>
+              <td>Uses that appear unlawful, manipulative, unsafe, or outside company risk appetite.</td>
+              <td>Covert biometric identification, deceptive scoring, unauthorized scraping of sensitive data, automated employment rejection without approved review.</td>
+              <td>Block, escalate to legal, document rationale, require executive exception for any continuation.</td>
+            </tr>
+            <tr>
+              <td><strong>Tier 1: High impact</strong></td>
+              <td>AI influences rights, access, employment, credit, health, safety, pricing, fraud outcomes, or regulated decisions.</td>
+              <td>Candidate ranking, loan pre-qualification, clinical triage support, benefits eligibility, risk scoring, fraud flags.</td>
+              <td>Impact assessment, human oversight, testing, monitoring, user notice, audit log, incident plan, executive owner.</td>
+            </tr>
+            <tr>
+              <td><strong>Tier 2: Customer-facing / material business risk</strong></td>
+              <td>AI produces outputs customers see or rely on, but does not directly make high-impact decisions.</td>
+              <td>Support answer generation, sales forecasting, document summarization in customer workflows, recommendation assistants.</td>
+              <td>Accuracy testing, disclaimers where appropriate, data boundaries, fallback process, vendor review, product owner signoff.</td>
+            </tr>
+            <tr>
+              <td><strong>Tier 3: Internal productivity</strong></td>
+              <td>Low-impact tools for internal drafting, summarization, search, coding, or analysis.</td>
+              <td>Meeting summaries, internal copilots, code assistants, first-draft marketing copy, knowledge search.</td>
+              <td>Approved tools list, sensitive data restrictions, user training, output verification guidance, periodic review.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Actionable recommendations</h3>
+        <div class="recommendation">
+          <h4>1. Build a single AI system inventory within 30 days.</h4>
+          <p>Create one living register covering product AI, internal AI, vendor AI, and experimental AI. For each system, record: business purpose, owner, user group, data categories, vendor/model provider, decision impact, jurisdictions, customer visibility, risk tier, review date, and approval status.</p>
+        </div>
+        <div class="recommendation">
+          <h4>2. Classify every AI use case by business impact, not technical novelty.</h4>
+          <p>Ask what the system influences: employment, money, healthcare, access to services, safety, regulated advice, customer-facing outputs, or internal productivity. Assign a risk tier and require controls before launch or renewal.</p>
+        </div>
+        <div class="recommendation">
+          <h4>3. Create an AI review gate for product launches and vendor renewals.</h4>
+          <p>Add AI questions to product release, procurement, and security review workflows. Any Tier 1 or Tier 2 system should receive legal, security, privacy, and product review before release, customer commitment, or contract renewal.</p>
+        </div>
+        <div class="recommendation">
+          <h4>4. Prepare a customer-facing AI governance evidence pack.</h4>
+          <p>Package the materials buyers repeatedly request: AI acceptable-use policy, governance owner map, inventory summary, vendor/subprocessor list, model provider list, security and privacy controls, incident response process, data training posture, human oversight statement, and roadmap for 2026 improvements.</p>
+        </div>
+        <div class="recommendation">
+          <h4>5. Review the top 10 AI-enabled vendors before the next renewal cycle.</h4>
+          <p>Prioritize vendors that process customer data, employee data, regulated data, proprietary code, or sensitive business records. Confirm whether data is used for model training, how prompts and outputs are retained, where data is processed, and whether AI features can be disabled or contractually limited.</p>
+        </div>
+        <div class="recommendation">
+          <h4>6. Put human oversight rules in writing.</h4>
+          <p>For high-impact uses, define who reviews outputs, when review is mandatory, what override authority exists, how disagreements are logged, and what recourse or escalation path is available to affected users or customers.</p>
+        </div>
+        <div class="recommendation">
+          <h4>7. Report AI governance metrics monthly to leadership.</h4>
+          <p>Track practical indicators: number of AI systems inventoried, percentage risk-tiered, Tier 1 systems with completed impact assessments, vendor reviews completed, open remediation items, incidents or near misses, and customer diligence requests answered.</p>
+        </div>
+
+        <h3>Vendor diligence question bank</h3>
+        <p>Use these questions with AI vendors, model providers, SaaS platforms that embed AI features, and internal teams proposing new AI systems.</p>
+        <ol>
+          <li>What AI or automated decision functionality is included in the product or service?</li>
+          <li>What model provider, foundation model, or proprietary model is used?</li>
+          <li>What customer, employee, or end-user data is processed by the AI feature?</li>
+          <li>Is customer data, prompt data, output data, or metadata used to train or improve models? If yes, can it be disabled?</li>
+          <li>Where is data processed and stored, and what subprocessors are involved?</li>
+          <li>What retention periods apply to prompts, outputs, logs, embeddings, and fine-tuning data?</li>
+          <li>Does the system support high-impact decisions in employment, finance, healthcare, housing, education, insurance, safety, or access to essential services?</li>
+          <li>What testing has been performed for accuracy, robustness, bias, security, and misuse?</li>
+          <li>What human oversight or review workflow is recommended or required?</li>
+          <li>Can customers audit, export, or review relevant decision logs?</li>
+          <li>How are AI incidents, hallucinations, security failures, or harmful outputs handled and disclosed?</li>
+          <li>Does the vendor provide documentation supporting EU AI Act, privacy, security, accessibility, and sector-specific obligations?</li>
+          <li>Can AI features be disabled, configured by tenant, or restricted by role?</li>
+          <li>What contractual commitments does the vendor make for AI data use, indemnity, compliance support, and change notice?</li>
+        </ol>
+
+        <h3>90-day readiness checklist</h3>
+        <p>This program is designed for a small cross-functional team. It is intentionally lean: enough structure to create defensible evidence, not so much ceremony that work stops.</p>
+        <h4>Days 1–30: Discover and classify</h4>
+        <ul class="checklist">
+          <li>Name an executive sponsor and program owner.</li>
+          <li>Create the AI inventory template and intake process.</li>
+          <li>Collect known product AI, internal tools, vendor AI, and pilots.</li>
+          <li>Identify jurisdictions and customer segments affected.</li>
+          <li>Assign provisional risk tiers to every known use case.</li>
+          <li>Flag Tier 1 and Tier 2 systems for deeper review.</li>
+          <li>Publish an interim approved-tools list for employees.</li>
+          <li>Freeze new high-impact AI launches until review gates are active.</li>
+        </ul>
+        <h4>Days 31–60: Control and document</h4>
+        <ul class="checklist">
+          <li>Run impact assessments for Tier 1 systems.</li>
+          <li>Add AI questions to procurement and vendor-risk workflows.</li>
+          <li>Review the top 10 AI-enabled vendors by data sensitivity and business dependency.</li>
+          <li>Document human oversight and escalation paths.</li>
+          <li>Define logging and monitoring expectations.</li>
+          <li>Update incident response to include AI failures and harmful outputs.</li>
+          <li>Draft customer-facing AI governance FAQ language.</li>
+          <li>Train product, sales, support, and security teams on the new process.</li>
+        </ul>
+        <h4>Days 61–90: Operationalize and sell through it</h4>
+        <ul class="checklist">
+          <li>Publish the AI governance evidence pack.</li>
+          <li>Approve or remediate Tier 1 and Tier 2 systems.</li>
+          <li>Map open obligations against EU AI Act and applicable U.S. state requirements.</li>
+          <li>Create a monthly leadership dashboard.</li>
+          <li>Add standard AI answers to sales and security questionnaire libraries.</li>
+          <li>Define customer escalation rules for AI diligence questions.</li>
+          <li>Set quarterly re-review dates for AI systems and vendors.</li>
+          <li>Prepare a board-ready summary of readiness, gaps, and budget needs.</li>
+        </ul>
+
+        <h3>Function-by-function playbook</h3>
+        <table class="matrix" aria-label="Function-by-function AI readiness playbook">
+          <thead>
+            <tr>
+              <th>Function</th>
+              <th>Immediate action</th>
+              <th>Evidence to produce</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Legal / Compliance</td>
+              <td>Map EU AI Act and U.S. state exposure by product, customer geography, and decision type.</td>
+              <td>Obligation map, risk-tier definitions, policy updates, impact assessment template.</td>
+            </tr>
+            <tr>
+              <td>Product / Engineering</td>
+              <td>Add AI review gates to roadmap, release, and experimentation processes.</td>
+              <td>System cards, release signoffs, test results, model/vendor dependency list.</td>
+            </tr>
+            <tr>
+              <td>Security / Privacy</td>
+              <td>Evaluate AI data flows, logging, retention, model access, and vendor data-use terms.</td>
+              <td>Data-flow summary, approved vendor list, security review notes, incident workflow.</td>
+            </tr>
+            <tr>
+              <td>Procurement / Vendor Risk</td>
+              <td>Update vendor questionnaires and renewals to capture AI functionality and model training terms.</td>
+              <td>Completed top-vendor reviews, subprocessors, contract redlines, AI feature controls.</td>
+            </tr>
+            <tr>
+              <td>Sales / Customer Success</td>
+              <td>Standardize answers to customer AI diligence questions and route exceptions quickly.</td>
+              <td>AI governance FAQ, evidence pack, escalation path, approved customer language.</td>
+            </tr>
+            <tr>
+              <td>HR / IT</td>
+              <td>Set rules for employee AI tool use, especially for candidate, employee, and sensitive company data.</td>
+              <td>Training records, approved-tools list, acceptable-use policy, exception register.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Board and leadership KPI template</h3>
+        <p>Executives do not need every legal nuance. They need a clear view of readiness and residual risk. Use the following monthly dashboard:</p>
+        <ul>
+          <li><strong>Inventory coverage:</strong> percentage of known AI systems logged with owner, purpose, vendor, data category, and risk tier.</li>
+          <li><strong>High-impact exposure:</strong> number of Tier 1 systems active, paused, approved, or under remediation.</li>
+          <li><strong>Vendor readiness:</strong> top AI-enabled vendors reviewed, pending, or requiring contract updates.</li>
+          <li><strong>Customer diligence:</strong> number of AI governance requests received, average response time, escalations, and blockers.</li>
+          <li><strong>Incident posture:</strong> AI-related incidents, near misses, harmful outputs, data leakage events, and remediation status.</li>
+          <li><strong>Policy adoption:</strong> employee completion of AI acceptable-use training and exceptions granted.</li>
+          <li><strong>Budget need:</strong> legal review, tooling, audit support, testing, or headcount required to close material gaps.</li>
+        </ul>
+
+        <h3>Final recommendation</h3>
+        <p>Treat AI governance readiness as a revenue and operating capability, not a narrow compliance project. The companies that will move fastest through 2026 buyer diligence will be the ones with organized evidence, named owners, a practical risk-tiering model, and a visible remediation cadence. The goal is not to claim zero AI risk. The goal is to show that AI risk is known, classified, controlled, monitored, and owned.</p>
+        <p><strong>Recommended next step:</strong> run the 90-day readiness sprint immediately, beginning with a full AI inventory and top-vendor review. By the end of the quarter, leadership should have a clear map of AI use, open compliance gaps, customer-facing evidence, and the budget required to mature the program.</p>
+        <p class="fine">Legal note: This report is informational research and implementation guidance. It is not legal advice. Companies should consult qualified counsel for jurisdiction-specific interpretation and obligations.</p>
       </div>
     </section>
 
