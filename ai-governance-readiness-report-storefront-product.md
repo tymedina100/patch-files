@@ -2,6 +2,7 @@
 
 **Edition:** 2026 launch  
 **Last updated:** 2 July 2026  
+**Launch price:** $149  
 **Audience:** SaaS, HR tech, fintech, health tech, enterprise AI, legal, compliance, security, product, procurement, and revenue teams  
 **Use:** Internal readiness planning, customer diligence preparation, vendor-risk review, board/leadership updates
 
@@ -67,14 +68,15 @@ The goal is to answer five questions without scrambling:
 
 ## EU AI Act timeline summary
 
-The EU AI Act applies on a phased schedule:
+The EU AI Act applies on a phased schedule. Current European Commission materials also reflect Digital Omnibus simplification changes to high-risk AI timing, so teams should verify the final adopted text and role-specific obligations with counsel.
 
 - **2 February 2025:** Prohibited AI practices and AI-literacy obligations began applying.
 - **2 August 2025:** General-purpose AI model obligations began applying.
-- **2 August 2026:** Most remaining obligations, including many high-risk AI-system obligations, apply.
-- **2 August 2027:** Obligations for certain high-risk AI systems covered by Annex I apply.
+- **2 August 2026:** Several governance, enforcement, and transparency provisions apply; this remains an active readiness date even though high-risk timing has been adjusted.
+- **2 December 2027:** Current European Commission AI Act materials reflect the Digital Omnibus timeline for standalone high-risk AI-system rules.
+- **2 August 2028:** High-risk AI systems embedded in regulated Annex I products have an extended transition period.
 
-Reference points to review with counsel: Regulation (EU) 2024/1689, especially Articles 2, 4, 5, 6, 9-15, 16-27, 50, 53-55, 99, and 113. Certain prohibited-practice infringements can carry administrative fines up to €35 million or 7% of total worldwide annual turnover, with different maximums for other categories.
+Reference points to review with counsel: Regulation (EU) 2024/1689, especially Articles 2, 4, 5, 6, 9-15, 16-27, 50, 53-55, 99, and 113; European Commission AI Act overview; AI Act Service Desk timeline; and the 7 May 2026 Digital Omnibus political agreement materials. Certain prohibited-practice infringements can carry administrative fines up to €35 million or 7% of total worldwide annual turnover, with different maximums for other categories.
 
 ## Practical EU readiness table
 
@@ -82,7 +84,7 @@ Reference points to review with counsel: Regulation (EU) 2024/1689, especially A
 |---|---|---|---|
 | AI literacy | Relevant staff need appropriate AI literacy. | HR + Legal + Product | Training log, policy acknowledgment |
 | Prohibited practices | Certain uses are restricted or banned. | Legal + Product | Use-case review checklist, stop-use process |
-| High-risk AI | Some systems require risk management, documentation, logging, transparency, human oversight, accuracy, robustness, and cybersecurity. | Legal + Product + Security | Risk classification memo, control map |
+| High-risk AI | Some systems may require risk management, documentation, logging, transparency, human oversight, accuracy, robustness, and cybersecurity. Timing differs by system category and transition rule. | Legal + Product + Security | Risk classification memo, control map |
 | General-purpose AI models | Downstream teams need supplier evidence and data-use clarity. | Vendor Management + Product | Model/vendor diligence file |
 | Transparency | Some AI interactions or generated content may require disclosure. | Product + UX + Legal | Disclosure review log, UI copy |
 | Monitoring/incidents | Material systems need monitoring and escalation. | Product + Security + Legal | AI incident runbook, monitoring records |
@@ -130,7 +132,7 @@ The United States remains fragmented across federal agency enforcement, state/lo
 | Area | Examples to monitor | Why it matters | Readiness action |
 |---|---|---|---|
 | Employment decision tools | NYC Local Law 144; state employment and anti-discrimination rules | Hiring, screening, ranking, and selection tools may require audit, notice, or bias review. | Inventory employment AI; collect audit and notice evidence. |
-| High-risk/consequential decisions | Colorado SB 26-189 automated decision-making technology provisions, effective January 1, 2027; other state automated decision-making rules | Automated decision-making technology that materially influences consequential decisions may trigger obligations around developer documentation, consumer notice, adverse-outcome explanations, correction rights, and meaningful human review. | Document covered ADMT use; map consequential decision workflows; collect developer/vendor documentation; prepare notices, adverse-outcome explanations, correction-request handling, and meaningful human-review workflows where applicable. |
+| High-risk/consequential decisions | Colorado SB26-189 covered automated decision-making technology provisions, effective January 1, 2027; other state automated decision-making rules | Covered ADMT that processes personal data and is used to materially influence consequential decisions may trigger obligations around developer documentation, consumer notice, adverse-outcome explanations, correction rights, and meaningful human review. | Document covered ADMT use; map consequential decision workflows; collect developer/vendor documentation; prepare notices, adverse-outcome explanations, correction-request handling, and meaningful human-review workflows where applicable. |
 | Consumer protection | FTC guidance/enforcement on AI claims, deception, unfairness | Unsupported AI claims and hidden limitations create risk. | Review marketing, sales decks, docs, and disclosures. |
 | Privacy/data protection | State privacy laws; sensitive data and profiling provisions | AI often processes personal, sensitive, biometric, employee, or behavioral data. | Map data inputs/outputs, retention, rights, and opt-outs. |
 | Sector rules | Finance, health, insurance, education, public sector procurement | Regulated sectors may impose validation, fairness, explainability, audit, and model-risk requirements. | Assign sector counsel/compliance owners. |
