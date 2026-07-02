@@ -14,11 +14,11 @@ A practical AI governance readiness kit for SaaS and enterprise teams preparing 
 
 ## Listing description
 
-AI governance is no longer an abstract policy topic. Enterprise buyers, auditors, investors, and internal leadership are starting to ask the same uncomfortable questions: Where are you using AI? What data does it touch? Which vendors and models are involved? Who reviews high-impact use cases? What evidence can you show?
+AI governance is no longer an abstract policy topic. Enterprise buyers, auditors, and internal leadership are starting to ask the same uncomfortable questions: Where are you using AI? What data does it touch? Which vendors and models are involved? Who reviews high-impact use cases? What evidence can you show?
 
 This downloadable report gives operators a practical starting point.
 
-Inside, you’ll get a buyer-ready AI governance implementation kit for SaaS, HR tech, fintech, health tech, and enterprise AI teams. It includes a 2026 readiness briefing, EU AI Act timeline map, U.S. state/local watchlist, AI inventory template, risk-tiering framework, vendor diligence question bank, customer evidence pack, 90-day implementation checklist, board KPI template, and copy/paste scripts for internal teams, vendors, and customers.
+Inside, you’ll get a practical AI governance readiness report and template set for SaaS, HR tech, fintech, health tech, and enterprise AI teams. It includes a 2026 readiness briefing, EU AI Act timeline map, U.S. state/local watchlist, AI inventory template, risk-tiering framework, vendor diligence question bank, customer evidence pack template, 90-day implementation checklist, board-level KPI template, and copy/paste scripts for internal teams, vendors, and customers.
 
 Built for legal, compliance, product, security, procurement, revenue, and founder-led teams that need to turn scattered AI use into a documented operating process.
 
@@ -30,9 +30,9 @@ What’s included:
 - U.S. AI governance watchlist for employment, consumer, privacy, and high-impact decision workflows
 - 40-question vendor/model diligence bank
 - Customer-facing evidence pack template
-- Approved-response examples for buyer AI questionnaires
-- 90-day implementation plan by function
-- Board-level KPI dashboard and readiness scorecard
+- Draft-response examples for buyer AI questionnaires
+- 90-day implementation checklist
+- Board-level KPI template and readiness scorecard
 - Email scripts for internal rollout, vendor diligence, customer responses, and escalation
 
 This is an informational research and implementation product, not legal advice. Use it to organize your readiness work and review jurisdiction-specific obligations with qualified counsel.
