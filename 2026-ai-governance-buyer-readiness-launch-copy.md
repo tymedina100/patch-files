@@ -142,3 +142,35 @@ Important note: this is informational research and implementation guidance, not 
 
 Best,
 [Name]
+
+---
+
+## Short Direct Outreach Messages
+
+### 1. SaaS Founder / CEO
+
+Hi [First Name] — noticed [Company] is selling into teams where AI questions are likely showing up in security or procurement review. I just launched the **2026 AI Governance Buyer Readiness Report** for SaaS and enterprise AI teams that need a practical way to inventory AI use, risk-tier it, and prepare buyer-facing evidence before diligence gets urgent. Launch price is $149: https://tymedina.gumroad.com/l/fndpv
+
+---
+
+### 2. Compliance / Legal Lead
+
+Hi [First Name] — thought this might be useful for your team at [Company]. The **2026 AI Governance Buyer Readiness Report** is a practical readiness report and template set for organizing AI inventory, vendor/model diligence, EU AI Act readiness, U.S. AI governance watch items, and customer-safe evidence. It is not legal advice, but it can help structure the internal readiness work. Link here: https://tymedina.gumroad.com/l/fndpv
+
+---
+
+### 3. Revenue / Sales Leader at B2B SaaS
+
+Hi [First Name] — if your sales team is starting to get buyer questions like “Do you use AI?” or “Can you share your AI governance process?”, this may help. I launched the **2026 AI Governance Buyer Readiness Report** to help SaaS teams prepare clearer evidence, questionnaire responses, and customer-facing documentation for AI diligence. $149 launch price: https://tymedina.gumroad.com/l/fndpv
+
+---
+
+### 4. Founder in HR Tech / Fintech / Health Tech
+
+Hi [First Name] — given [Company] operates in [HR tech/fintech/health tech], AI governance can become a buyer-trust issue quickly, especially when data, automated workflows, or regulated customers are involved. The **2026 AI Governance Buyer Readiness Report** gives teams a practical starting point: inventory, risk tiers, vendor diligence, evidence pack, 90-day checklist, and board KPIs. Available here: https://tymedina.gumroad.com/l/fndpv
+
+---
+
+### 5. Security / Procurement / Ops Buyer
+
+Hi [First Name] — sharing this in case [Company] is tightening its AI vendor review process for 2026. The **2026 AI Governance Buyer Readiness Report** includes a 40-question vendor/model diligence bank, AI inventory structure, risk-tiering framework, customer evidence pack template, and internal rollout scripts for cross-functional teams. It is built as readiness guidance, not a full audit or legal opinion. Gumroad link: https://tymedina.gumroad.com/l/fndpv
