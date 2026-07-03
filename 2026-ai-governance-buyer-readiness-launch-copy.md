@@ -174,3 +174,99 @@ Hi [First Name] — given [Company] operates in [HR tech/fintech/health tech], A
 ### 5. Security / Procurement / Ops Buyer
 
 Hi [First Name] — sharing this in case [Company] is tightening its AI vendor review process for 2026. The **2026 AI Governance Buyer Readiness Report** includes a 40-question vendor/model diligence bank, AI inventory structure, risk-tiering framework, customer evidence pack template, and internal rollout scripts for cross-functional teams. It is built as readiness guidance, not a full audit or legal opinion. Gumroad link: https://tymedina.gumroad.com/l/fndpv
+
+---
+
+## Canva Image Prompts — Cover Graphic + Social Cards
+
+### Visual System Notes
+
+Use a clean enterprise SaaS look: deep navy or charcoal background, white typography, electric blue and mint accents, subtle gridlines, dashboard/checklist elements, procurement evidence motifs, and abstract AI network lines. Keep the design credible and practical — no robots, gavels, courtroom imagery, warning triangles, or exaggerated “guaranteed compliance” visuals.
+
+---
+
+### 1. Gumroad Cover Graphic
+
+**Format:** 16:9 horizontal, 1280×720 minimum
+
+**Canva prompt:**  
+Create a polished B2B SaaS report cover for “2026 AI Governance Buyer Readiness Report.” Deep navy background with subtle gridlines, abstract AI network nodes, a clean compliance dashboard mockup, checklist cards, and a buyer diligence evidence folder motif. Use electric blue and mint accents, crisp white typography, modern enterprise style, high contrast, minimal and trustworthy. Add badge text: “Launch Price: $149.” Add footer text: “tymedina.gumroad.com/l/fndpv.” No robots, no legal scales, no hype.
+
+**On-image copy:**  
+2026 AI Governance Buyer Readiness Report  
+Prepare for buyer diligence, vendor review, and 2026 compliance pressure  
+Launch Price: $149  
+tymedina.gumroad.com/l/fndpv
+
+---
+
+### 2. LinkedIn Social Card — Buyer Diligence Angle
+
+**Format:** 1:1 square, 1080×1080
+
+**Canva prompt:**  
+Design a square LinkedIn launch card in a dark enterprise SaaS style. Show a clean AI inventory dashboard, vendor/model review checklist, and customer evidence pack icons arranged like a readiness workspace. Deep navy background, electric blue and mint highlights, sharp white headline type, subtle grid and data-line accents. Professional, practical, no futuristic clichés.
+
+**On-image copy:**  
+AI governance is becoming buyer diligence.  
+Get the 2026 readiness report + templates.  
+$149 launch price  
+https://tymedina.gumroad.com/l/fndpv
+
+---
+
+### 3. LinkedIn Social Card — What’s Inside
+
+**Format:** 4:5 portrait, 1080×1350
+
+**Canva prompt:**  
+Create a portrait LinkedIn carousel-style cover card for a B2B AI governance report. Use a premium report layout with stacked modular cards labeled inventory, risk tiers, vendor diligence, evidence pack, 90-day checklist, board KPIs. Deep charcoal background, blue/mint accent lines, clean icons, modern SaaS typography, clear hierarchy, polished and credible.
+
+**On-image copy:**  
+Inside the 2026 AI Governance Buyer Readiness Report  
+Inventory • Risk Tiers • Vendor Questions • Evidence Pack • 90-Day Checklist  
+Launch price: $149  
+tymedina.gumroad.com/l/fndpv
+
+---
+
+### 4. X / Twitter Social Card
+
+**Format:** 16:9 horizontal, 1600×900
+
+**Canva prompt:**  
+Create a high-contrast X/Twitter launch graphic for a practical AI governance readiness report. Show an enterprise procurement review screen with AI use cases, data touched, vendors/models, risk tier, and evidence status as simplified UI elements. Dark navy background, bright blue and mint highlights, clean readable headline, minimal text, credible SaaS/compliance style.
+
+**On-image copy:**  
+Asked about AI in buyer review?  
+Prepare evidence before diligence gets urgent.  
+2026 AI Governance Buyer Readiness Report — $149  
+https://tymedina.gumroad.com/l/fndpv
+
+---
+
+### 5. Email / Website Launch Banner
+
+**Format:** 3:1 horizontal banner, 1500×500
+
+**Canva prompt:**  
+Design a sleek email banner for a B2B AI governance readiness report launch. Use a premium dark-mode dashboard aesthetic with checklist, policy folder, vendor review, and board KPI scorecard visuals. Deep navy and charcoal palette, white headline, electric blue and mint accent glow, clean spacing, practical and executive-ready.
+
+**On-image copy:**  
+New: 2026 AI Governance Buyer Readiness Report  
+For SaaS, compliance, security, product, procurement, revenue, and founder-led teams  
+$149 launch price • https://tymedina.gumroad.com/l/fndpv
+
+---
+
+### 6. Minimal Retargeting / Reminder Card
+
+**Format:** 1:1 square, 1080×1080
+
+**Canva prompt:**  
+Create a minimal reminder card for a B2B readiness report. Dark navy background, single clean checklist panel with five checked items: AI inventory, risk tiers, vendor review, customer evidence, 90-day plan. Blue and mint accents, lots of negative space, crisp white typography, direct and trustworthy.
+
+**On-image copy:**  
+Turn scattered AI use into a documented readiness process.  
+2026 AI Governance Buyer Readiness Report  
+$149 • https://tymedina.gumroad.com/l/fndpv
