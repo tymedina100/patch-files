@@ -1,6 +1,6 @@
 # VAN-29 Release Readiness Checklist
 
-Status: **Release path NOT APPROVED — do not ship until the blockers below are verified or closed.**
+Status: **Release path NOT APPROVED — do not ship until the blockers below are verified or closed, or each remaining blocker is tracked in a separate Linear issue with an actual issue ID/link.**
 
 ## Acceptance criteria check
 
@@ -13,31 +13,33 @@ Status: **Release path NOT APPROVED — do not ship until the blockers below are
 
 ## Launch checklist items
 
-| Item | Status | Evidence / next action |
-|---|---:|---|
-| Cron jobs | **Blocked** | Verify scheduled jobs are configured and enabled, or open a separate Linear issue for the missing setup. |
-| Password reset | **Blocked** | Verify the end-to-end password reset flow, or open a separate Linear issue for the broken/missing flow. |
-| Privacy page | **Blocked** | Verify the privacy page is deployed and publicly accessible, or open a separate Linear issue. |
-| Support page | **Blocked** | Verify the support page is deployed and publicly accessible, or open a separate Linear issue. |
-| Domain | **Blocked** | Verify DNS / hosting / production domain setup, or open a separate Linear issue. |
-| Demo account needs | **Blocked** | Verify demo accounts or seeded test credentials exist and are usable, or open a separate Linear issue. |
+| Item | Status | Owner | Evidence / next action |
+|---|---:|---|---|
+| Cron jobs | **Blocked** | Backend owner | Verify scheduled jobs are configured and enabled, or open a separate Linear issue for the missing setup. |
+| Password reset | **Blocked** | Backend owner | Verify the end-to-end password reset flow, or open a separate Linear issue for the broken/missing flow. |
+| Privacy page | **Blocked** | Web / product owner | Verify the privacy page is deployed and publicly accessible, or open a separate Linear issue. |
+| Support page | **Blocked** | Web / product owner | Verify the support page is deployed and publicly accessible, or open a separate Linear issue. |
+| Domain | **Blocked** | Infra / release owner | Verify DNS / hosting / production domain setup, or open a separate Linear issue. |
+| Demo account needs | **Blocked** | Product owner | Verify demo accounts or seeded test credentials exist and are usable, or open a separate Linear issue. |
 
 ## Remaining blockers to split into separate Linear issues
 
-1. Railway environment review / deployment config verification
-2. EAS environment review / release config verification
-3. Production API URL validation
-4. Manual-account launch verification with Plaid disabled
-5. Cron job setup verification
-6. Password reset flow verification
-7. Privacy page deployment verification
-8. Support page deployment verification
-9. Domain / DNS verification
-10. Demo account readiness verification
+These blockers remain unresolved and must be tracked in separate Linear issues with actual IDs/links before VAN-29 can be approved:
+
+- Railway environment review / deployment config verification
+- EAS environment review / release config verification
+- Production API URL validation
+- Manual-account launch verification with Plaid disabled
+- Cron job setup verification
+- Password reset flow verification
+- Privacy page deployment verification
+- Support page deployment verification
+- Domain / DNS verification
+- Demo account readiness verification
 
 ## Final decision
 
-**Release path is not approved for TestFlight until all VAN-29 blockers are verified or tracked in separate Linear issues.**
+**Release path is not approved for TestFlight until all VAN-29 blockers are verified or tracked in separate Linear issues with actual issue IDs/links.**
 
 ## Notes
 
