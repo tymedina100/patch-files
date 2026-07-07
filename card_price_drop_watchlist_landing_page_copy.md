@@ -237,3 +237,193 @@ Tell us what you collect and which cards you’re watching. We’ll use early fe
 **Headline:** Put your grails on watch. We’ll watch the price.  
 **Subheadline:** Track the cards you want to buy and get a heads-up when they finally fall into range.  
 **CTA:** Start your watchlist
+
+---
+
+# Launch Copy Package
+
+## Positioning Angle
+
+### Target customer
+Sports card, Pokémon, and TCG buyers who already know the specific cards they want — rookies, chase cards, slabs, set needs, PC targets, and grails — but are tired of manually checking sold comps across eBay, 130point, PriceCharting/SportsCardsPro, and other tools.
+
+### One message that matters most
+**Simple, trusted price-drop alerts for cards you want to buy — not another full portfolio tracker.**
+
+### Launch angle
+Collectors do not need another dashboard telling them the theoretical value of everything they own. They need a focused way to watch the few cards they actually want next, set the price that makes sense, and get notified when recent sold comps suggest the card has moved into range.
+
+### Differentiation in one line
+Unlike broad collection trackers, scanner apps, and investor dashboards, this watchlist starts with buying intent: the card, the target price, and the sold-comp signal behind the alert.
+
+### Messaging pillars
+- **Focused:** built for cards you want to buy, not your entire collection.
+- **Practical:** set your buy price once instead of refreshing comps every week.
+- **Trust-first:** alerts should be grounded in recent sold comps, not inflated active listings alone.
+- **Lightweight:** no portfolio upload, no market terminal, no extra workflow.
+- **Collector-led:** early access will prioritize categories, data quality, and alert context based on collector feedback.
+
+---
+
+## Product Launch Post
+
+### Recommended channel
+LinkedIn, collector community post, product update email, or launch announcement page.
+
+### Post copy
+Card collectors already have enough dashboards.
+
+What they do not have is a simple answer to the question that actually matters when they are buying:
+
+**“Did the card I want finally hit my number?”**
+
+We’re opening early access for a focused card price-drop watchlist built for sports card, Pokémon, and TCG buyers.
+
+The idea is simple:
+
+1. Add the card you’re watching.
+2. Set the price where you’d seriously consider buying.
+3. Track movement against recent sold comps.
+4. Get alerted when the card drops into your buy zone.
+
+This is not meant to replace full portfolio trackers, scanner apps, or market research tools. Those already exist, and some are very good.
+
+This is for the collector who already knows the next card they want — the rookie, slab, parallel, set need, chase card, or grail — and is tired of checking five places to decide whether today’s price is real.
+
+The product promise is narrow on purpose: fewer mystery numbers, fewer noisy alerts, and a clearer signal when a watched card becomes worth a look.
+
+Early access is opening soon. We’re looking for collectors who will help shape:
+
+- Which card categories we support first
+- How target-price alerts should work
+- What comp context makes an alert trustworthy
+- Where accuracy matters most: raw, graded, sports, Pokémon, or TCG
+
+If you’ve ever kept a card in your head for months waiting for the right price, this is for you.
+
+**Join the early access list:** [link]
+
+---
+
+## Short Social Posts
+
+### X / Threads Post 1
+Most card apps help you track what you own.
+
+We’re building one for what you want to buy next.
+
+Add a card, set your buy price, and get alerted when recent sold comps suggest it drops into range.
+
+Early access: [link]
+
+### X / Threads Post 2
+Collectors should not have to refresh eBay sold listings, 130point, and pricing tools just to answer one question:
+
+“Is this card finally cheap enough to buy?”
+
+That’s the job of a price-drop watchlist.
+
+Join early access: [link]
+
+### X / Threads Post 3
+The wedge: not portfolio tracking. Not a scanner. Not an investor dashboard.
+
+Just a focused watchlist for cards you want to buy, with target-price alerts grounded in sold comps.
+
+Sports cards, Pokémon, and TCG buyers — early access is opening: [link]
+
+### X / Threads Post 4
+Put your grails on watch.
+Set the price you’d actually pay.
+Stop checking comps until the market gives you a reason.
+
+We’re building a card price-drop watchlist for collectors.
+
+Join the beta list: [link]
+
+### LinkedIn Short Post
+Most card pricing tools start with collection value.
+
+We’re starting with buying intent.
+
+The card price-drop watchlist is for collectors who know what they want next and want a trusted alert when recent sold comps suggest it has finally hit their buy zone.
+
+No full collection upload. No bloated dashboard. No alert flood.
+
+Just the card, the target price, and the comp context behind the signal.
+
+Early access is opening soon: [link]
+
+### Instagram Caption
+Still checking sold comps for the same card every week?
+
+Put it on watch instead.
+
+We’re building a focused price-drop watchlist for sports card, Pokémon, and TCG collectors. Add the card you want, set your buy price, and get a heads-up when sold comps suggest it drops into range.
+
+Early access: [link]
+
+### Reddit / Community Post
+Title: Would you use a simple price-drop watchlist for cards you want to buy?
+
+Body:
+I’m working on a focused watchlist for collectors who are tired of manually checking comps for the same cards over and over.
+
+The idea:
+- Add a specific card/variation/grade you want
+- Set the price where you’d actually consider buying
+- Monitor recent sold comps
+- Get alerted when the card appears to move into your target range
+
+This is not meant to be a full collection tracker or scanner app. The goal is a lightweight buying tool for PC targets, slabs, set needs, chase cards, and grails.
+
+The biggest question we’re validating is trust: what comp context would you need before an alert felt useful?
+
+If you’re interested in shaping early access, join here: [link]
+
+### Email / Waitlist Launch Note
+Subject: Stop checking comps for the same card
+
+Preview: Add the card, set your buy price, and wait for the signal.
+
+Body:
+You know the card. You know the price you’d pay.
+
+The annoying part is everything in between: checking sold listings, comparing pricing tools, refreshing saved searches, and trying to decide whether the market has actually moved.
+
+We’re opening early access for a card price-drop watchlist built around one job:
+
+**Tell me when the card I want drops into my buy zone.**
+
+It’s designed for sports card, Pokémon, and TCG buyers who want a focused watchlist, target-price alerts, and sold-comp context — without uploading an entire collection or living inside another dashboard.
+
+Join the early access list here: [link]
+
+---
+
+## Launch CTA Bank
+
+- Join the early access list
+- Put your next card on watch
+- Get the beta invite
+- Help shape the watchlist
+- Stop refreshing comps
+- Set your buy price
+- Watch the cards you want next
+
+## Hashtag / Keyword Bank
+
+Use sparingly. Prioritize readability over hashtag stuffing.
+
+- sports cards
+- Pokémon cards
+- TCG
+- card collecting
+- card comps
+- eBay sold listings
+- price alerts
+- card watchlist
+- graded cards
+- PSA cards
+- trading cards
+- hobby collectors
