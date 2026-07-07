@@ -1,11 +1,25 @@
 # VAN-29 Release Readiness Checklist
 
-Review timestamp: 2026-07-07 08:53 MDT  
-Revision: Round 2 Managing Editor response  
+Review timestamp: 2026-07-07 08:55 MDT  
+Revision: Round 3 Managing Editor response  
 Issue: [VAN-29 — Complete Railway and EAS release checklist](https://linear.app/vantagefinancial/issue/VAN-29/complete-railway-and-eas-release-checklist)  
 Decision: **NOT APPROVED for TestFlight yet.**
 
 This file is the concrete VAN-29 audit artifact. It is intentionally narrow: Railway/EAS release readiness only. Manual accounts first. Plaid production later.
+
+## Revision round 3 response
+
+The Managing Editor's round 2 required changes were reviewed again on 2026-07-07 08:55 MDT.
+
+Actions completed by this coding agent in round 3:
+
+- Re-read VAN-29 directly in Linear.
+- Re-searched Linear for existing blocker issues covering Railway, EAS, production API URL, manual-account TestFlight verification, cron jobs, password reset, privacy/support pages, domain, and demo account readiness.
+- Result of the Linear searches: **no matching separate Linear issues found**.
+- Removed the informal sentence from the round 2 response and replaced it with neutral release-audit language.
+- Kept **NOT APPROVED** because the required Railway, EAS, API URL, TestFlight/manual-account evidence, and real Linear blocker links still were not available to this agent.
+
+Round 3 cannot honestly convert any blocked row to done. The missing items require access to real Railway/EAS/runtime systems or PM creation/linking of Linear issues. This file now states that plainly and keeps the release decision blocked.
 
 ## Revision round 2 response
 
@@ -20,7 +34,7 @@ What changed in this revision:
 - Added a stricter evidence ledger so each required proof item has one place to be pasted when the real owner provides it.
 - Added exact Linear blocker issue drafts for the PM/release owner to create or link. This agent has read-only Linear access, so it cannot create those issues itself.
 
-This still does **not** complete VAN-29. It makes the remaining work auditable and non-ambiguous. Annoying, but true.
+This still does **not** complete VAN-29. It makes the remaining work auditable and non-ambiguous.
 
 ## Scope reviewed
 
@@ -32,7 +46,7 @@ Observed repo evidence:
 - No `DEPLOYMENT.md` was available in the connected repo snapshot during this audit.
 - No `railway.toml`, Railway service config, `.env.example`, `eas.json`, Expo app config, or runtime production env export was available in the connected repo snapshot.
 - No Railway dashboard access, EAS dashboard/CLI project access, or deployed production runtime access was available to this coding agent.
-- Linear search found no existing separate issues for the unresolved VAN-29 blockers as of 2026-07-07 08:53 MDT.
+- Linear search found no existing separate issues for the unresolved VAN-29 blockers as of 2026-07-07 08:55 MDT.
 
 Result: repo-level evidence was reviewed, but live Railway/EAS environment verification cannot honestly be marked done from the available access.
 
@@ -40,14 +54,14 @@ Result: repo-level evidence was reviewed, but live Railway/EAS environment verif
 
 | Acceptance criterion | Status | Evidence / result | Required next action |
 |---|---:|---|---|
-| Railway env vars are reviewed | **Blocked — evidence missing** | No Railway project/service access or Railway env export was available. No repo Railway config was present in the accessible snapshot. No redacted Variables screenshot/export or written owner confirmation was provided. | Release owner must review actual Railway project/service variables and attach dated proof: redacted Variables screenshot/export or written confirmation, plus Railway service/API health URL. |
+| Railway env vars are reviewed | **Blocked — evidence missing** | No Railway project/service access or Railway env export was available. No repo Railway config was present in the accessible snapshot. No redacted Variables screenshot/export or written owner confirmation was provided. | Release owner must review actual Railway project/service variables and attach dated proof: redacted Variables screenshot/export or written confirmation, plus Railway service/API health URL and external health-check result. |
 | EAS env vars are reviewed | **Blocked — evidence missing** | No EAS project access, `eas env:list` output, dashboard screenshot, build profile, `eas.json`, or Expo app config was available. | Mobile owner must review actual EAS project/build environment and attach dated proof: redacted `eas env:list` output or dashboard screenshot, selected build profile, and confirmation secrets are stored in EAS and not committed. |
-| Production API URL is not localhost | **Blocked — unverified** | No production runtime env, EAS env, mobile config, or deployed API URL was available. Could not verify `EXPO_PUBLIC_API_URL` / equivalent. | Mobile owner must provide the actual production/TestFlight API URL, or a redacted equivalent showing HTTPS and not localhost/emulator/LAN/dev tunnel, plus external health-check proof. |
-| Manual-account launch path is confirmed with `EXPO_PUBLIC_PLAID_ENABLED=false` if needed | **Blocked — unverified** | No EAS env or runnable app/TestFlight build was available to confirm the flag or manual-account flow. | Mobile/QA owner must confirm the actual TestFlight/EAS environment has `EXPO_PUBLIC_PLAID_ENABLED=false` and that manual accounts can be opened/used without Plaid. |
+| Production API URL is not localhost | **Blocked — unverified** | No production runtime env, EAS env, mobile config, deployed API URL, or external health-check result was available. Could not verify `EXPO_PUBLIC_API_URL` / equivalent. | Mobile owner must provide the actual production/TestFlight API URL, or a redacted equivalent proving HTTPS and not localhost/emulator/LAN/dev server/tunnel, plus external health-check proof. |
+| Manual-account launch path is confirmed with `EXPO_PUBLIC_PLAID_ENABLED=false` if needed | **Blocked — unverified** | No EAS env or runnable app/TestFlight build was available to confirm the flag or manual-account flow. | Mobile/QA owner must confirm the actual TestFlight/EAS environment has `EXPO_PUBLIC_PLAID_ENABLED=false` and that manual accounts can be opened/used without Plaid. Include build/profile, tester/device, date, and pass/fail evidence. |
 | Cron jobs, password reset, privacy/support pages, domain, and demo account needs are listed as done or blocked | **Blocked — listed, but blocker issue links missing** | The items are listed below as blocked. No actual separate Linear issue IDs/links were found for them. | PM/release owner must either attach done evidence for each item or create/link separate Linear blocker issues. |
 | Remaining blockers are separate Linear issues | **Blocked — not satisfied** | Linear searches found no matching separate blocker issues. This file does not claim they are separated. | PM must create/link the blocker issues listed in `Separate Linear issue status` before VAN-29 can be closed. |
 
-## Round 2 evidence ledger
+## Evidence ledger
 
 Paste proof here only after the responsible owner has verified the real system. Do not mark a row done from assumptions, repo comments, or old screenshots.
 
@@ -55,6 +69,7 @@ Paste proof here only after the responsible owner has verified the real system. 
 |---|---|---|---:|
 | Railway project/service variables reviewed | Release owner | **Missing.** Need dated redacted Railway Variables screenshot/export or written owner confirmation. | **Blocked** |
 | Railway service/API health URL | Release owner | **Missing.** Need externally reachable health/root URL. | **Blocked** |
+| Railway external health-check result | Release owner | **Missing.** Need date/time, URL, status/body summary, and verifier. | **Blocked** |
 | EAS project/build environment reviewed | Mobile owner | **Missing.** Need dated redacted `eas env:list` output or EAS dashboard screenshot. | **Blocked** |
 | Selected EAS build profile | Mobile owner | **Missing.** Need profile name, e.g. `preview`, `production`, or actual configured profile. | **Blocked** |
 | Secrets stored in EAS, not committed | Mobile owner | **Missing.** Need owner confirmation after EAS env review. | **Blocked** |
@@ -85,7 +100,7 @@ Minimum release-owner verification needed:
 - [ ] No required production URL points to `localhost`, `127.0.0.1`, `10.0.2.2`, private LAN IPs, or dev tunnels.
 - [ ] Secrets are not committed to the repo.
 
-Required evidence to mark done: redacted Railway Variables screenshot/export, dated owner confirmation, and the production API health URL.
+Required evidence to mark done: redacted Railway Variables screenshot/export or dated written owner confirmation, plus the Railway service/API health URL and external health-check result.
 
 Current status: **blocked — no Railway evidence was available.**
 
@@ -95,7 +110,7 @@ Evidence slot:
 Railway project/service: <missing>
 Railway variables reviewed by: <missing>
 Review date/time: <missing>
-Redacted variables proof: <missing>
+Redacted variables proof or written owner confirmation: <missing>
 Health URL: <missing>
 External health check result: <missing>
 ```
@@ -194,7 +209,7 @@ Verified by: <owner>
 
 Acceptance criterion: remaining blockers must be separate Linear issues.
 
-Current status: **not satisfied.** No actual issue IDs/links were found in Linear for the unresolved blockers.
+Current status: **not satisfied.** No actual issue IDs/links were found in Linear for the unresolved blockers after round 3 searches.
 
 This coding agent has read-only Linear access. It can verify whether issues exist, but it cannot create or edit them. PM/release owner must create or link the issues below, then paste the IDs/URLs here.
 
@@ -213,7 +228,7 @@ This coding agent has read-only Linear access. It can verify whether issues exis
 
 ## Linear blocker issue drafts for PM
 
-Create these as separate Linear issues if the work cannot be completed immediately. Keep them separate. One mixed mega-ticket will just recreate this mess later.
+Create these as separate Linear issues if the work cannot be completed immediately. Keep them separate. One mixed mega-ticket will obscure release ownership.
 
 ### 1. Verify Railway production environment for TestFlight API
 
@@ -340,13 +355,14 @@ Acceptance criteria:
 What is complete:
 
 - Repo-accessible evidence was reviewed.
-- VAN-29 was read directly in Linear again during round 2.
+- VAN-29 was read directly in Linear again during round 3.
 - Linear was searched again for separate blocker issues. None were found.
 - The production API URL requirement is defined and remains unverified.
 - The manual-account-first path and required `EXPO_PUBLIC_PLAID_ENABLED=false` setting are documented.
 - Checklist gaps are explicit.
-- Evidence slots have been added for every Managing Editor-required proof item.
-- PM-ready Linear blocker issue drafts have been added because the actual blocker issues do not exist yet and this agent cannot create them.
+- Evidence slots exist for every Managing Editor-required proof item.
+- PM-ready Linear blocker issue drafts exist because the actual blocker issues do not exist yet and this agent cannot create them.
+- Informal release-audit phrasing from round 2 was removed.
 
 What remains blocked:
 
